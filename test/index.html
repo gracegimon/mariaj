@@ -13,20 +13,13 @@
 
 <script>
     // /* To change logo when hovering */
-    // $(document).ready(function(){
-    //   $("#CenterMain").hover(function()
-    //   {
-    //      $("#TopMain").animate({
-    //         "background-image": "url(light_logo.png)"
-    //       }, 100);
+    $(document).ready(function(){
+      $("#CenterMain").hover(function()
+      {
+        $('#TopMain').toggleClass('logo-dark').toggleClass('logo-light')
          
-    //   }, function()
-    //   {
-    //      $("#TopMain").animate({
-    //         "background-image": "url(dark_logo.png)"
-    //       }, 100);
-    //   });
-    // });
+      });
+    });
 </script>
 
 </head>
@@ -35,7 +28,7 @@
   <ol class="curtains">
     
     <li id="section-1" class="cover current">
-      <div id="TopMain">
+      <div id="TopMain" class= 'logo-dark'>
         <div id="CenterMain"></div>
       </div>
     </li>

@@ -31,14 +31,19 @@ h1 {
     height: 100vh;
     position:relative;
     margin:0 auto;
+  }
+
+  .logo-dark{
     transition: background-image 1s ease-in-out;
     background-image:url("dark_logo.png");
     background-size: cover;
   }
 
 
-  #TopMain:hover {
+  .logo-light{
+    transition: background-image 1s ease-in-out;
     background-image:url("light_logo.png");
+    background-size: cover;
   }
 
   #contenido {
