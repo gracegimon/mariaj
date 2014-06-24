@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Maria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8">
+<!--<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+-->
+<link rel="stylesheet" href="curtain.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+<script>
+    // $(document).ready(function(){
+    // $("#CenterMain").hover(function()
+    // {
+    //    $("#TopMain").css("background-image", 'url(' + "light.png" + ')');
+    //    $("#TopContainer").css("background-image", 'url(' + "light.mini.jpg" + ')');
+       
+    // }, function()
+    // {
+    //    $("#TopMain").css("background-image", 'url(' + "dark.png" + ')');
+    //     $("#TopContainer").css("background-image", 'url(' + "dark.mini.jpg" + ')');
+    // });
+    // });
+</script>
+
+</head>
+<body>
+
+  <ol class="curtains">
+    
+    <li id="section-1" class="cover current">
+      <div id="TopMain">
+        <div id="CenterMain"></div>
+      </div>
+    </li>
+    <li id="section-2" >
+      <article>
+        <h4>Here's a fixed title</h4>
+        <p>With a small fixed text.</p>
+        <p>Oh, and you can see my last selected Instagram pictures on the left.</p>
+      </article>
+    </li>
+  </ol>
+  <script src="curtain.js"></script>
+
+    <script>
+        $(document).ready( function(){
+            $('.curtains').curtain({
+                scrollSpeed: 300
+            }); 
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* General Body styles */
+body {
+  padding: 0; 
+  font: 1em "Trebuchet MS", verdana, arial, sans-serif; 
+  font-size: 100%;
+  background-color: #000;
+  margin: 0;
+  height:100vh;
+}
+ol {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+ol li {
+  padding: 0px;
+  margin: 0px;    }
+h1 { 
+    margin-bottom: 2px; 
+}
+
+
+/* Logo image : first curtain */
+  #TopMain {
+    /*background-color: blue;
+    */
+    background-image:url('dark_logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  #contenido {
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+  }
+  #CenterMain {
+    position: absolute;
+    top: 30vh;
+    left: 70vh;
+    width: 25%;
+    height: 25%;
+    /*background-color: yellow;*/
+      
+  }
+
+  /* Other styles */
+  #BotMain {
+  background-color: red;
+  }
+
+
+  #tophalf {
+  background-color: white;
+  height: 390px;
+  width: 100%;
+  }
+  #left_side{
+  float:left;
+  background-color: White;
+  height:388px;
+  width:50%;
+  }
+  #left_side_content{
+  margin-left: 20px;
+  }
+  #iframe_right{
+  float:right;
+  background-color: white;
+  height:388px;
+  width:50%;
+  }
+      
+  /* slider specific CSS */
+    .sliderGallery {
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 26px;
+        height: 390px;
+        width: 100%;
+        background-color: white;
+    }
+
+
+      
+    .sliderGallery UL {
+        position: absolute;
+        list-style: none;
+        overflow: none;
+        white-space: nowrap;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sliderGallery UL LI {
+        display: inline;
+    }
+
+    .sliderGallery UL LI IMG {
+      padding-left: 9px;
+      padding-right: 9px;
+      background-color:white;
+      background: white url(images/4PBC8.gif) no-repeat scroll center;
+      border: 0px;
+    }
+        
+    .slider {
+      position: relative;
+      width: 100%;
+      height: 25px;
+      margin-top: 390px;
+      margin-left: 0px;
+      padding: 0px;
+      padding-top: 3px;
+      /*background: url(images/slider_bg.jpg) repeat;*/
+      background: white;
+    }
+      
+    .ui-slider-handle {
+      position: absolute;
+      cursor: move;
+      height: 22px;
+      width: 91px;
+      margin-left: -5px;
+      background: url(images/slider.jpg) no-repeat;
+    }
+      
+      
+  #demo-frame > div.demo { padding: 10px !important; }
+  .scroll-pane { overflow: auto; width: 99%; float:left; }
+
+  .scroll-content-item { width: 100px; height: 100px; float: left; margin: 10px; font-size: 3em; line-height: 96px; text-align: center; }
+  * html .scroll-content-item { display: inline; } /* IE6 float double margin bug */
+  #container .scroll-bar-wrap { clear: left; padding: 0 4px 0 2px; margin: 0 -1px -1px -1px; }
+  #container .scroll-bar-wrap .ui-slider { background: none; border:0; height: 2em; margin: 0 auto;  }
+  #container .scroll-bar-wrap .ui-handle-helper-parent { position: relative; width: 100%; height: 100%; margin: 390px auto; }
+  #container .scroll-bar-wrap .ui-slider-handle {background:url(images/slider.jpg) no-repeat; top:.2em; height: 22px; width:91px; border:none; 
+  -khtml-border-bottom-right-radius: 0px/*{cornerRadius}*/;
+  border-bottom-right-radius: 0px/*{cornerRadius}*/;
+  border-top-right-radius:0px/*{cornerRadius}*/;
+  }
+  .s.croll-bar-wrap .u.i-slider-handle .u.i-icon { background:url(slider.jpg); margin: -8px auto 0; position: relative; top: 50%; }
