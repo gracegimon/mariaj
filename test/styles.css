@@ -34,6 +34,10 @@ h1 {
   }
 
   .logo-dark{
+    -webkit-transition: background-image 1s ease-in-out;
+    -moz-transition: background-image 1s ease-in-out;
+    -ms-transition: background-image 1s ease-in-out;
+    -o-transition: background-image 1s ease-in-out;
     transition: background-image 1s ease-in-out;
     background-image:url("dark_logo.png");
     background-size: cover;
@@ -41,6 +45,10 @@ h1 {
 
 
   .logo-light{
+    -webkit-transition: background-image 1s ease-in-out;
+    -moz-transition: background-image 1s ease-in-out;
+    -ms-transition: background-image 1s ease-in-out;
+    -o-transition: background-image 1s ease-in-out;
     transition: background-image 1s ease-in-out;
     background-image:url("light_logo.png");
     background-size: cover;
