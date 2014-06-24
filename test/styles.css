@@ -24,11 +24,26 @@ h1 {
   #TopMain {
     /*background-color: blue;
     */
-    background-image:url('dark_logo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  }
+  #TopMain {
     width: 100%;
     height: 100vh;
+    position:relative;
+    margin:0 auto;
+  }
+
+  #TopMain img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #TopMain img.top:hover {
+    opacity:0;
   }
   #contenido {
     background-color: blue;

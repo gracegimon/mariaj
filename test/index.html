@@ -12,17 +12,20 @@
 
 
 <script>
+    // /* To change logo when hovering */
     // $(document).ready(function(){
-    // $("#CenterMain").hover(function()
-    // {
-    //    $("#TopMain").css("background-image", 'url(' + "light.png" + ')');
-    //    $("#TopContainer").css("background-image", 'url(' + "light.mini.jpg" + ')');
-       
-    // }, function()
-    // {
-    //    $("#TopMain").css("background-image", 'url(' + "dark.png" + ')');
-    //     $("#TopContainer").css("background-image", 'url(' + "dark.mini.jpg" + ')');
-    // });
+    //   $("#CenterMain").hover(function()
+    //   {
+    //      $("#TopMain").animate({
+    //         "background-image": "url(light_logo.png)"
+    //       }, 100);
+         
+    //   }, function()
+    //   {
+    //      $("#TopMain").animate({
+    //         "background-image": "url(dark_logo.png)"
+    //       }, 100);
+    //   });
     // });
 </script>
 
@@ -33,6 +36,8 @@
     
     <li id="section-1" class="cover current">
       <div id="TopMain">
+        <img class="bottom" src="light_logo.png" />
+        <img class="top" src="dark_logo.png" />
         <div id="CenterMain"></div>
       </div>
     </li>
