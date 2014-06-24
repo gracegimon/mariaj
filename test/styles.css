@@ -56,8 +56,12 @@ h1 {
     left: 70vh;
     width: 25%;
     height: 25%;
-    /*background-color: yellow;*/
-      
+  }
+
+  /* Main information container */
+  .main-info-container{
+    margin-top: 10%;
+    margin-left: 30%;
   }
 
   /* Other styles */
